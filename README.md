@@ -1,4 +1,4 @@
-# FoodCode - Developed at STSHacks
+# FoodCode - Developed at STHacks
 
 A web application designed to scan barcodes and detect harmful ingredients. The application uses OpenCV to allow the user to use their device's webcam to scan a barcode. The barcode is then processed and a request is sent to Barcode Lookup API, which returns a list of ingredients for the given barcode. The ingredients are then filtered through our database of harmful ingredients and any matches are displayed to the user. 
 
