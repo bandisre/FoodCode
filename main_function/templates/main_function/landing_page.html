@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Search</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700;800&family=Montserrat:wght@300;400;500;900&family=Rubik:wght@300;400;500;600;700&family=Staatliches&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type='text/css' href="{% static 'main.css' %}">
+    </head>
+    <body>
+        <div class='landing-wrapper'>
+            <div class='main-text'>
+                <h1 class='landing-main-text'>FoodCode</h1>
+                <h2 class='landing-sub-text'> Unveil the preservatives in your food by unrolling the barcode</h2>
+                <a class='landing-button' href='{% url "search-page"%}'>search barcodes</a>
+            </div>
+        </div>
+	</body>
+</html>
